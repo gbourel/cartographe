@@ -1,0 +1,11 @@
+# Dependencies (node, jspm)
+node_modules/
+
+# Conf on copy
+dist/constants.js
+
+# JSPM build temp dir
+/tmp
+
+# Dev public dir
+.public
