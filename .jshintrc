@@ -1,0 +1,9 @@
+{
+  "browser"       : true,
+  "devel"         : true,
+  "esnext"        : true,
+  "quotmark"      : "single",
+  "strict"        : false,
+  "globals": {
+  }
+}
