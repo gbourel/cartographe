@@ -4,7 +4,7 @@ module.exports = function(grunt){
 
   require('load-grunt-tasks')(grunt);
 
-  var baseUrl = 'https://gbourel.github.io/cartographe';
+  var baseUrl = 'https://unknown.cartographe.io/';
     md5Filenames = {};
 
   grunt.initConfig({
@@ -21,7 +21,12 @@ module.exports = function(grunt){
           ieCompat: true
         },
         files: [{
-          'public/css/cards.css': ['less/cards.less']
+          '.public/css/cards.css': ['src/less/cards.less']
+        }]
+      },
+      extern: {
+        files: [{
+          '.public/css/extern.css': ['src/less/font-awesome/font-awesome.less']
         }]
       }
     },
@@ -30,7 +35,7 @@ module.exports = function(grunt){
       },
       target: {
         files: {
-          'docs/css/cards.css': ['public/css/cards.css']
+          'docs/css/cards.css': ['.public/css/cards.css']
         }
       }
     },
@@ -41,7 +46,7 @@ module.exports = function(grunt){
       },
       local: {
         options: {
-          base: ['public'],
+          base: ['.public'],
           port: 9200,
           open: true,
           livereload: 29976
@@ -50,10 +55,10 @@ module.exports = function(grunt){
     },
     copy: {
       config_dev: {
-        src: 'js/dev-constants.js', dest: 'public/js/constants.js'
+        src: 'config/dev-constants.js', dest: '.public/js/constants.js'
       },
-      dev: {
-        src: 'index.html', dest: 'public/index.html',
+      dev_index: {
+        src: 'src/index.html', dest: '.public/index.html',
         options: {
           process: function (content) {
             content = content.replace(/%BASE_PATH%/g, '');
@@ -62,13 +67,24 @@ module.exports = function(grunt){
           }
         }
       },
+      dev: {
+        files: [{
+          expand: true, dot: true,
+          cwd: 'src', dest: '.public',
+          src: [
+            'css/font-awesome.min.css',
+            'css/cards.css',
+            'img/**/*'
+          ]
+        }]
+      },
       config_dist: {
-        src: 'js/prod-constants.js', dest: 'public/js/constants.js'
+        src: 'config/prod-constants.js', dest: '.public/js/constants.js'
       },
       dist: {
         files: [{
           expand: true, dot: true,
-          cwd: 'public', dest: 'docs',
+          cwd: '.public', dest: 'docs',
           src: [
             'css/font-awesome.min.css',
             'css/cards.css',
@@ -110,8 +126,8 @@ module.exports = function(grunt){
     shell: {
       bundle: {
         command: [
-          'jspm bundle js/cards.js - jquery - moment tmp/cards.js --minify --skip-source-maps',
-          'jspm bundle jquery + moment tmp/libs.js --minify --skip-source-maps'
+          'jspm bundle js/cards.js - jquery - moment - svg.js - jspdf tmp/cards.js --minify --skip-source-maps',
+          'jspm bundle jquery + moment + svg.js + jspdf tmp/libs.js --minify --skip-source-maps'
         ].join('&&')
       }
     },
@@ -135,19 +151,15 @@ module.exports = function(grunt){
         livereload: 29976
       },
       html: {
-        files: ['index.html'],
+        files: ['src/index.html'],
         tasks: ['copy:dev']
       },
-      i18n: {
-        files: ['public/i18n/*.js'],
-        tasks: []
-      },
       js: {
-        files: ['public/js/**/*.js'],
-        tasks: []
+        files: ['src/js/**/*.js'],
+        tasks: ['copy:dev']
       },
       css: {
-        files: ['less/*.less'],
+        files: ['src/less/*.less'],
         tasks: ['less']
       }
     }
