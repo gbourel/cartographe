@@ -26,7 +26,8 @@ module.exports = function(grunt){
       },
       extern: {
         files: [{
-          '.public/css/extern.css': ['src/less/font-awesome/font-awesome.less']
+          '.public/css/extern.css': ['src/less/font-awesome/font-awesome.less',
+                                     'src/less/bootstrap/bootstrap.less']
         }]
       }
     },
@@ -54,9 +55,6 @@ module.exports = function(grunt){
       }
     },
     copy: {
-      config_dev: {
-        src: 'config/dev-constants.js', dest: '.public/js/constants.js'
-      },
       dev_index: {
         src: 'src/index.html', dest: '.public/index.html',
         options: {
@@ -72,14 +70,10 @@ module.exports = function(grunt){
           expand: true, dot: true,
           cwd: 'src', dest: '.public',
           src: [
-            'css/font-awesome.min.css',
-            'css/cards.css',
-            'img/**/*'
+            'img/**/*',
+            'fonts/**/*'
           ]
         }]
-      },
-      config_dist: {
-        src: 'config/prod-constants.js', dest: '.public/js/constants.js'
       },
       dist: {
         files: [{
@@ -105,6 +99,17 @@ module.exports = function(grunt){
             return content;
           }
         }
+      }
+    },
+    symlink: {
+      dev: {
+        files: [{
+          expand: true,
+          overwrite: true,
+          cwd: 'src',
+          src: ['data','img','js','config.js'],
+          dest: '.public'
+        }]
       }
     },
     md5: {
@@ -152,7 +157,7 @@ module.exports = function(grunt){
       },
       html: {
         files: ['src/index.html'],
-        tasks: ['copy:dev']
+        tasks: ['copy:dev_index']
       },
       js: {
         files: ['src/js/**/*.js'],
@@ -165,7 +170,7 @@ module.exports = function(grunt){
     }
   });
 
-  grunt.registerTask('release', ['less', 'cssmin', 'copy:config_dist', 'shell:bundle', 'copy:dist', 'md5', 'copy:distIndex']);
-  grunt.registerTask('dev', ['less', 'copy:config_dev', 'copy:dev', 'connect:local', 'watch']);
+  grunt.registerTask('release', ['less', 'cssmin', 'shell:bundle', 'copy:dist', 'md5', 'copy:distIndex']);
+  grunt.registerTask('dev', ['symlink', 'less', 'copy:dev', 'copy:dev_index', 'connect:local', 'watch']);
   grunt.registerTask('default', ['usage']);
 };

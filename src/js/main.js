@@ -1,7 +1,5 @@
 import $ from 'jquery';
-import _ from 'lodash';
 
-import {constants} from './constants.js';
 // import {googleAuth} from './core/googleAuth.js';
 import CardsController from './core/cardsController.js';
 
