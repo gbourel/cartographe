@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cartographe</title>
+    <meta name="description" content="">
+    <meta property="og:title" content="Cartographe">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="%BASE_PATH%/">
+    <meta property="og:description" content="Cartographe.">
+    <meta property="og:image" content="%BASE_PATH%/img/favicon-152.png">
+    <meta property="og:site_name" content="Cartographe">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="%BASE_PATH%/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="%BASE_PATH%/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="%BASE_PATH%/img/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="%BASE_PATH%/img/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="%BASE_PATH%/img/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="%BASE_PATH%/img/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="%BASE_PATH%/img/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="%BASE_PATH%/img/favicon-16.png">
+    <link rel="apple-touch-icon" href="%BASE_PATH%/img/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="%BASE_PATH%/img/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="%BASE_PATH%/img/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="%BASE_PATH%/img/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="%BASE_PATH%/img/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="%BASE_PATH%/img/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="%BASE_PATH%/img/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="%BASE_PATH%/img/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="%BASE_PATH%/img/favicon-180.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="%BASE_PATH%/img/favicon-144.png">
+    <meta name="msapplication-config" content="%BASE_PATH%/img/browserconfig.xml">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Roboto" rel="stylesheet">
+
+    <!-- CSS deps -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="%BASE_PATH%/css/cards.css" title="light">
+  </head>
+  <body class="cards">
+    <div id="loading-status">
+      <img src="%BASE_PATH%/img/cards-refresh.png" class="cards-refresh-animate"/>
+    </div>
+    <div id="main-alert" class="alert alert-danger" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <span class="alert-content">Alerte</span>
+    </div>
+    <!-- Header and navbar -->
+    <header>
+      <div>
+        <a class="cards-brand" href="/">
+          <i class="fa fa-gamepad"></i>
+          <span>Cartographe</span>
+          <span class="version"> BETA</span>
+        </a>
+      </div>
+      <div class="theme">
+      </div>
+      <div class="actions">
+        <button type="button" class="btn save"><i class="fa fa-cloud-upload"></i> Enregistrer</button>
+        <button type="button" class="btn export"><i class="fa fa-download"></i> Export</button>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+      <div class="card-svg-preview">
+        <div id="card-svg"></div>
+      </div>
+      <div class="card-editor">
+        <div class="cards-attr-buttons">
+          <button type="button" class="btn btn-primary cards-back">Recto</button>
+          <button type="button" class="btn btn-primary cards-front">Verso</button>
+        </div>
+        <div class="card-attr-back">
+          <form>
+            <div class="form-group">
+              <label for="card-main-color">Couleur</label>
+              <input id="card-main-color" type="text" class="form-control" value="" />
+              <label for="card-main-title">Titre</label>
+              <textarea id="card-main-title" class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="card-attr-front">
+          <form>
+            <div class="form-group">
+              <div class="questions">
+                <label>Questions</label>
+              </div>
+              <div class="answers">
+                <label>Réponses</label>
+              </div>
+            </div>
+          </form>
+          <button type="button" class="btn btn-primary add-question">+</button>
+        </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="%BASE_PATH%/lib/system.js"></script>
+    %DEPENDENCIES%
+    <script>
+      System.import('js/main.js');
+    </script>
+    <!-- <script async defer src="https://apis.google.com/js/auth.js"></script> -->
+  </body>
+</html>
