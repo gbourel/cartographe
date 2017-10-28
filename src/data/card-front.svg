@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="62mm"
+   height="89.274925mm"
+   viewBox="0 0 219.68504 316.32847"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="card-front.svg"
+   inkscape:export-filename="/home/gbourel/trivial-01b.png"
+   inkscape:export-xdpi="150"
+   inkscape:export-ydpi="150">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="-0.34009024"
+     inkscape:cy="78.065314"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     fit-margin-top="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1"
+     fit-margin-left="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3338"
+       units="mm"
+       spacingx="7.0866142"
+       spacingy="7.0866143"
+       originy="-393.88304"
+       enabled="false"
+       originx="-16.338578" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-16.338578,-342.15072)">
+    <g
+       id="g14108"
+       transform="translate(-0.82726708,10.336876)">
+      <g
+         id="card01">
+        <rect
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="/tmp/cards/img-01a.png"
+           ry="0"
+           y="335.35715"
+           x="20.709152"
+           height="309.24185"
+           width="212.59842"
+           id="rect5352"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.20000005;stroke-miterlimit:4;stroke-dasharray:4.4, 4.4;stroke-dashoffset:0;stroke-opacity:1" />
+        <path
+           mask="none"
+           inkscape:export-ydpi="299.97711"
+           inkscape:export-xdpi="299.97711"
+           inkscape:export-filename="/home/gbourel/Dropbox/Chloe/timeline-01.png"
+           inkscape:connector-curvature="0"
+           id="path4685"
+           d="m 42.41804,349.52337 c -4.47402,0 -8.0753,3.58217 -8.0753,8.03244 l 0,264.84536 c 0,4.45027 3.60128,8.03244 8.0753,8.03244 l 169.17982,0 c 4.47401,0 8.0753,-3.58217 8.0753,-8.03244 l 0,-264.84536 c 0,-4.45027 -3.60129,-8.03244 -8.0753,-8.03244 z"
+           clip-path="none"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#5a5a5a;stroke-width:0.49681497;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:nodetypes="sssssssss" />
+        <path
+           style="fill:#0084ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26162341px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 112.96916,371.59304 c 0,-1.65625 3.78712,-3.23502 5.45608,-3.84664 1.15071,-0.4217 4.65459,-1.85453 8.52703,-1.85453 3.87244,0 8.23891,1.52605 9.89684,2.28738 1.3743,0.63108 4.19763,1.85817 4.19763,3.41379 0,1.80732 -2.72442,5.2605 -6.2968,11.27993 -3.57238,6.01943 -6.13082,10.94782 -8.33249,10.91039 -2.20167,-0.0374 -4.19588,-4.69146 -7.64473,-10.82078 -3.44884,-6.12933 -5.80356,-9.95836 -5.80356,-11.36954 z"
+           id="path5362"
+           class="game-color"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="sszsszzzs" />
+        <path
+           style="opacity:1;fill:#0084ff;fill-opacity:1;stroke:#ffffff;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           clip-path="none"
+           d="m 56.80273,399.82436 c -6.71549,0 -12.12304,5.4056 -12.12304,12.12109 l 0,33.47266 c 26.982699,-1.07206 54.601923,-1.62638 82.32812,-1.65234 27.72222,0.0202 55.34139,0.56862 82.32813,1.63476 l 0,-33.45508 c 0,-6.71549 -5.40756,-12.12109 -12.12305,-12.12109 z M 209.33594,587.3517 c -26.9827,1.07206 -54.60193,1.62639 -82.32813,1.65235 -27.722215,-0.0202 -55.341386,-0.56863 -82.32812,-1.63477 l 0,19.45508 c 0,6.71549 5.40755,12.12109 12.12304,12.12109 l 140.41016,0 c 6.71549,0 12.12305,-5.4056 12.12305,-12.12109 z"
+           id="rect4745"
+           class="game-color"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="sscccssscccssssc" />
+        <path
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#0084ff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 60.125778,404.08551 133.764072,0 c 6.7155,0 12.12183,5.40634 12.12183,12.12183 l 0,186.35516 c 0,6.71549 -5.40633,12.12183 -12.12183,12.12183 l -133.764072,0 c -6.715494,0 -12.12183,-5.40634 -12.12183,-12.12183 l 0,-186.35516 c 0,-6.71549 5.406336,-12.12183 12.12183,-12.12183 z"
+           id="rect4419"
+           class="game-color-stroke"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="sssssssss" />
+        <path
+           mask="none"
+           inkscape:export-ydpi="299.97711"
+           inkscape:export-xdpi="299.97711"
+           inkscape:export-filename="/home/gbourel/Dropbox/Chloe/timeline-01.png"
+           inkscape:connector-curvature="0"
+           id="path4421"
+           d="m 42.418036,349.52337 c -4.474015,0 -8.075293,3.58217 -8.075293,8.03244 l 0,124.07021 0,140.77515 c 0,4.45027 3.601278,8.03244 8.075293,8.03244 l 169.179824,0 c 4.47401,0 8.0753,-3.58217 8.0753,-8.03244 l 0,-264.84536 c 0,-4.45027 -3.60129,-8.03244 -8.0753,-8.03244 z"
+           clip-path="url(#clipPath4621)"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#a3a3a3;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:nodetypes="sscsssssss" />
+        <text
+           transform="scale(1.0026642,0.99734287)"
+           sodipodi:linespacing="125%"
+           id="front-title"
+           y="430.31024"
+           x="126"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:20px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#474747;stroke-width:0.37261122;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             y="430.31024"
+             x="76.959328"
+             id="tspan5368"
+             sodipodi:role="line">TITRE</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="127"
+           y="462.71741"
+           id="text-question"
+           sodipodi:linespacing="125%">
+           <tspan
+             sodipodi:role="line"
+             id="tspan5421">La question ? </tspan>
+           </text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.68149185px;line-height:125%;font-family:Avdira;-inkscape-font-specification:Avdira;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#474747;stroke-width:0.37261122;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="-160.759"
+           y="-600.37982"
+           id="text5427"
+           sodipodi:linespacing="125%"
+           transform="scale(-1.0026642,-0.99734287)"><tspan
+             sodipodi:role="line"
+             id="tspan5429"
+             x="-160.759"
+             y="-600.37982"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:15px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';fill:#DDDDDD;fill-opacity:1;stroke:#474747;stroke-width:0.37261122;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">REPONSE</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text-answer"
+           y="-575"
+           x="-127.64239"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle"
+           xml:space="preserve"
+           transform="scale(-1,-1)"><tspan
+             id="tspan5437"
+             sodipodi:role="line">La réponse</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
